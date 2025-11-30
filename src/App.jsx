@@ -10,18 +10,22 @@ const CRAWL_DATA = [
     name: "Tiki Taipei", 
     secretPin: "1234", 
     image: "https://scontent.fhan4-5.fna.fbcdn.net/v/t39.30808-6/272667906_483321756478421_8666523856445749944_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=xPqMGLqvN6IQ7kNvgGxXqgF&_nc_zt=23&_nc_ht=scontent.fhan4-5.fna&_nc_gid=AYvH_YEcVj4Sxvg_KV8GBJA&oh=00_AfiYdEGxhzM-7LB0rMj9qqkxX8RQ4vZQ5qEZy5d_Eq7Pfw&oe=67615D52",
-    socialHandle: "@tikitaipei #TaipeiSantaCrawl",
-    address: "Xinyi District",
-    googlePlaceId: "" // Add Google Place ID here
+    socialHandle: "@tiki_taipei #TaipeiSantaCrawl",
+    instagramUrl: "https://www.instagram.com/tiki_taipei/",
+    facebookUrl: "https://www.facebook.com/tikitaipei",
+    address: "No. 1, Yumen St, Zhongshan District (Maji Square)",
+    googlePlaceId: "" // To be added
   },
   { 
     id: 2, 
     name: "Tacos N' Taps", 
     secretPin: "2025", 
     image: "https://scontent.fhan4-1.fna.fbcdn.net/v/t39.30808-6/306959607_114670831393570_3127851888876946642_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=AJYhxQ8SLNgQ7kNvwH4MYZV&_nc_oc=Adm_SZ0Xsva7T682NH0QdqqVZpuiUr1Y3nCRJOS0hYa70alnGbiK2VWfeZ1Ar_sBftY&_nc_zt=23&_nc_ht=scontent.fhan4-1.fna&_nc_gid=i6b0KZqDp3OYcIt4sfEG2A&oh=00_AfiaffUj3K643hKckG8AIB_Ce903M-Zi-vjahxUCKMrcUg&oe=692DBBDB",
-    socialHandle: "@tacosntaps #TaipeiSantaCrawl",
-    address: "Da'an District",
-    googlePlaceId: "" // Add Google Place ID here
+    socialHandle: "@tacos_n_taps #TaipeiSantaCrawl",
+    instagramUrl: "https://www.instagram.com/tacos_n_taps/",
+    facebookUrl: "https://www.facebook.com/TacosNTaps",
+    address: "No. 1, Yumen St, Zhongshan District (Maji Square)",
+    googlePlaceId: "" // To be added
   },
   { 
     id: 3, 
@@ -29,8 +33,10 @@ const CRAWL_DATA = [
     secretPin: "5555", 
     image: "https://scontent.fhan4-1.fna.fbcdn.net/v/t39.30808-6/360105182_661531572669873_3750510897453033955_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=jAua-mJML2AQ7kNvwHB3Wwk&_nc_oc=AdlaECayo1PlkIgMhjF9HnLnXZFs2XKlLG9MPHITwV1337FNJ2vkvfatPKoXe4UN4fw&_nc_zt=23&_nc_ht=scontent.fhan4-1.fna&_nc_gid=9dZPE-KW2qeNZXtfw2rTqg&oh=00_AfhIVIJ9JWvfQj0OkZKhDFTen-yA8GCe23P-Wumj28XeiA&oe=692DD604",
     socialHandle: "@hakutaipei #TaipeiSantaCrawl",
-    address: "Zhongshan District",
-    googlePlaceId: "" // Add Google Place ID here
+    instagramUrl: "https://www.instagram.com/hakutaipei/",
+    facebookUrl: "https://www.facebook.com/hakutaipei",
+    address: "No. 1, Yumen St, Zhongshan District (Maji Square)",
+    googlePlaceId: "" // To be added
   },
   { 
     id: 4, 
@@ -38,8 +44,10 @@ const CRAWL_DATA = [
     secretPin: "9999", 
     image: "https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/305773234_462346825909088_88014592620908795_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=xD6_oqaOA6oQ7kNvwFkB1qP&_nc_oc=AdkaoesYgDJG76F6xT6sowNqaqlEMiA52T4eoJLAG8FlZNypqdsZ-QnqSjmYaR1L-38&_nc_zt=23&_nc_ht=scontent.fhan4-3.fna&_nc_gid=WkFlr0LXdsmguGMgRKGgKA&oh=00_Afh4e-uLrj8I5XkUVJaxWurqytbGOA4UhRvF9vKigqJXew&oe=692DBDFF",
     socialHandle: "@craftedtaipei #TaipeiSantaCrawl",
-    address: "Songshan District",
-    googlePlaceId: "" // Add Google Place ID here
+    instagramUrl: "https://www.instagram.com/craftedtaipei/",
+    facebookUrl: "https://www.facebook.com/craftedtaipei",
+    address: "No. 1, Yumen St, Zhongshan District (Maji Square)",
+    googlePlaceId: "" // To be added
   },
   { 
     id: 5, 
@@ -47,8 +55,10 @@ const CRAWL_DATA = [
     secretPin: "8888", 
     image: "https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-6/448069062_487057477042299_2725182506313381410_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=iL4wYwFObM4Q7kNvwFe9X7O&_nc_oc=Adlqe_dqNGMOUz39LY2FwWJOL89Jh3aKnHpNYRL5Zgq6PhUgLbo7YxY9Zo0LtebdLhA&_nc_zt=23&_nc_ht=scontent.fhan4-6.fna&_nc_gid=hbgYShUJUlh_hoq0r6FQvg&oh=00_Afhdf7iK7VR9YJyzSvwC4BESigdthjM0RUP8l91Ke45i4w&oe=692DA9C4",
     socialHandle: "@barcadetaiwan #TaipeiSantaCrawl",
-    address: "Xinyi District",
-    googlePlaceId: "" // Add Google Place ID here
+    instagramUrl: "https://www.instagram.com/barcadetaiwan/",
+    facebookUrl: "https://www.facebook.com/barcadetaiwan",
+    address: "177 Heping E Rd Sec 1, B1, Da'an District",
+    googlePlaceId: "ChIJEXU2F9yrQjQRQqywwyWrv7g"
   },
 ];
 
@@ -66,6 +76,9 @@ function SantaCrawlApp() {
   const [showReward, setShowReward] = useState(false);
   const [showQRScanner, setShowQRScanner] = useState(false);
   const [language, setLanguage] = useState('en'); // 'en' or 'zh'
+  const [adminCode, setAdminCode] = useState('');
+
+  const ADMIN_CODE = '2025SANTA'; // Change this to your desired admin code
 
   // Translations
   const translations = {
@@ -74,7 +87,7 @@ function SantaCrawlApp() {
       subtitle: "2025",
       photoCaption: "Official Stamp Card - December 2025",
       progress: "★ PROGRESS ★",
-      collectStamps: "★ CLICK EACH LOCATION TO SCAN & GET YOUR FREE DRINK ★",
+      collectStamps: "★ CLICK EACH LOCATION · SCAN QR & GET YOUR FREE DRINK · PLEASE BUY SOMETHING & SUPPORT THE VENUE! ★",
       freeShot: "One FREE Shot!",
       reset: "◄ RESET",
       info: "INFO",
@@ -106,6 +119,8 @@ function SantaCrawlApp() {
       tagsCopied: "TAGS COPIED!",
       orEnterCode: "OR ENTER CODE",
       incorrectPin: "Incorrect PIN! Ask the bartender for help.",
+      incorrectAdmin: "Incorrect admin code!",
+      enterAdminCode: "ENTER ADMIN CODE:",
       scanQrCode: "SCAN QR CODE",
       lookForQr: "Look for the official QR code poster at this venue!",
       howToScan: "📱 HOW TO SCAN:",
@@ -120,7 +135,7 @@ function SantaCrawlApp() {
       subtitle: "2025",
       photoCaption: "官方集章卡 - 2025年12月",
       progress: "★ 進度 ★",
-      collectStamps: "★ 點擊每個地點掃描即可獲得免費飲品 ★",
+      collectStamps: "★ 點擊每個地點 · 掃描即可獲得免費飲品 · 請購買其他商品並支持店家！ ★",
       freeShot: "免費一杯烈酒！",
       reset: "◄ 重置",
       info: "資訊",
@@ -152,6 +167,8 @@ function SantaCrawlApp() {
       tagsCopied: "標籤已複製！",
       orEnterCode: "或輸入密碼",
       incorrectPin: "密碼錯誤！請詢問調酒師。",
+      incorrectAdmin: "管理員密碼錯誤！",
+      enterAdminCode: "輸入管理員密碼：",
       scanQrCode: "掃描二維碼",
       lookForQr: "尋找此店家的官方二維碼海報！",
       howToScan: "📱 如何掃描：",
@@ -221,9 +238,15 @@ function SantaCrawlApp() {
   };
 
   const handleReset = () => {
+    if (adminCode !== ADMIN_CODE) {
+      setError(t.incorrectAdmin || 'Incorrect admin code!');
+      return;
+    }
     setStamps([]);
     setShowResetConfirm(false);
     setShowReward(false);
+    setAdminCode('');
+    setError('');
     localStorage.removeItem(STORAGE_KEY);
   };
 
@@ -490,15 +513,20 @@ function SantaCrawlApp() {
                     <div className="absolute inset-2 border-2 border-dashed border-orange-600"></div>
                     
                     {/* Venue logo */}
-                    <img 
-                      src={bar.image} 
-                      alt={bar.name}
-                      className="absolute inset-4 w-auto h-auto object-contain"
-                      style={{ 
-                        opacity: isStamped ? 0.4 : 1,
-                        filter: isStamped ? 'grayscale(1) sepia(0.3)' : 'sepia(0.1)'
-                      }}
-                    />
+                    <div className="absolute inset-0 flex items-center justify-center p-4">
+                      <img 
+                        src={bar.image} 
+                        alt={bar.name}
+                        className="max-w-full max-h-full object-contain"
+                        style={{ 
+                          opacity: isStamped ? 0.4 : 1,
+                          filter: isStamped ? 'grayscale(1) sepia(0.3)' : 'sepia(0.1)'
+                        }}
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                        }}
+                      />
+                    </div>
                     
                     {isStamped && (
                       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
@@ -587,12 +615,12 @@ function SantaCrawlApp() {
                   <button 
                     onClick={() => {
                       handleCopyTag(selectedBar.socialHandle);
-                      setTimeout(() => {
-                        window.location.href = "instagram://camera";
-                      }, 100);
+                      // Open venue's Instagram page
+                      const igUrl = selectedBar.instagramUrl || 'https://www.instagram.com/';
+                      window.open(igUrl, '_blank');
                     }}
                     className="bg-gradient-to-br from-pink-500 via-purple-500 to-orange-500 text-white py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
-                    title="Copy tags & open Instagram"
+                    title="Copy tags & open Instagram page"
                   >
                     <Instagram size={28} strokeWidth={2.5} />
                     <span className="text-base" style={{ fontFamily: 'Fredoka, cursive' }}>{t.insta}</span>
@@ -600,18 +628,26 @@ function SantaCrawlApp() {
                   <button 
                     onClick={() => {
                       handleCopyTag(selectedBar.socialHandle);
-                      setTimeout(() => {
-                        window.location.href = "fb://composer";
-                      }, 100);
+                      // Open venue's Facebook page
+                      const fbUrl = selectedBar.facebookUrl || 'https://www.facebook.com/';
+                      window.open(fbUrl, '_blank');
                     }}
                     className="bg-blue-600 text-white py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
-                    title="Copy tags & open Facebook"
+                    title="Copy tags & open Facebook page"
                   >
                     <Facebook size={28} strokeWidth={2.5} fill="currentColor" />
                     <span className="text-base" style={{ fontFamily: 'Fredoka, cursive' }}>{t.facebook}</span>
                   </button>
                   <button 
-                    onClick={() => window.open(`https://search.google.com/local/writereview?placeid=${selectedBar.googlePlaceId || ''}`, '_blank')}
+                    onClick={() => {
+                      const placeId = selectedBar.googlePlaceId;
+                      if (placeId) {
+                        window.open(`https://search.google.com/local/writereview?placeid=${placeId}`, '_blank');
+                      } else {
+                        // Fallback to Google Maps search if no Place ID
+                        window.open(`https://www.google.com/maps/search/${encodeURIComponent(selectedBar.name + ' Taipei')}`, '_blank');
+                      }
+                    }}
                     className="bg-white text-red-700 py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
                     title="Leave Google Review"
                   >
@@ -849,13 +885,43 @@ function SantaCrawlApp() {
                 </div>
               </div>
               
-              <p className="text-sm font-bold text-stone-900 mb-6" style={{ fontFamily: 'Special Elite, cursive' }}>
+              <p className="text-sm font-bold text-stone-900 mb-4" style={{ fontFamily: 'Special Elite, cursive' }}>
                 {t.eraseStamps}
               </p>
+
+              {/* Admin Code Input */}
+              <div className="mb-4">
+                <p className="text-xs font-bold text-red-700 mb-2" style={{ fontFamily: 'Special Elite, cursive' }}>
+                  {t.enterAdminCode || 'ENTER ADMIN CODE:'}
+                </p>
+                <div className="bg-stone-900 border-4 border-red-700 p-2 mb-2">
+                  <input 
+                    type="text"
+                    value={adminCode}
+                    onChange={(e) => {
+                      setAdminCode(e.target.value.toUpperCase());
+                      setError('');
+                    }}
+                    placeholder="ADMIN CODE"
+                    className="w-full text-center text-2xl font-black tracking-wider py-2 bg-stone-900 text-orange-600 placeholder:text-orange-600/30 outline-none uppercase"
+                    style={{ fontFamily: 'Bungee, cursive' }}
+                    autoFocus
+                  />
+                </div>
+                {error && (
+                  <p className="text-xs text-red-700 font-black" style={{ fontFamily: 'Special Elite, cursive' }}>
+                    {error}
+                  </p>
+                )}
+              </div>
               
               <div className="flex gap-3">
                 <button 
-                  onClick={() => setShowResetConfirm(false)}
+                  onClick={() => {
+                    setShowResetConfirm(false);
+                    setAdminCode('');
+                    setError('');
+                  }}
                   className="flex-1 py-3 bg-green-800 text-yellow-500 font-black border-4 border-stone-900 shadow-[4px_4px_0px_rgba(0,0,0,0.3)] hover:shadow-[2px_2px_0px_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
                   style={{ fontFamily: 'Special Elite, cursive' }}
                 >
