@@ -640,7 +640,7 @@ function SantaCrawlApp() {
                   </button>
                   <button 
                     onClick={() => handleCopyTag(selectedBar.socialHandle)}
-                    className="bg-yellow-500 text-stone-900 py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
+                   className="col-span-2 bg-yellow-500 text-stone-900 py-4 px-4...
                     title="Copy tags to clipboard"
                   >
                     <Copy size={28} strokeWidth={2.5} />
