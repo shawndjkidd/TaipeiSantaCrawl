@@ -101,11 +101,11 @@ function SantaCrawlApp() {
       validate: "VALIDATE",
       approved: "APPROVED!",
       stampCollected: "STAMP COLLECTED",
-      winner: "WINNER!",
+      winner: "MERRY CHRISTMAS!",
       allStampsCollected: "ALL {count} STAMPS COLLECTED",
-      rewardAwaits: "🎁 YOUR REWARD AWAITS 🎁",
+      rewardAwaits: "🎁 WE HOPE YOU HAD AN AMAZING TIME! 🎁",
       showScreen: "Show this screen to any venue to claim your prize!",
-      awesome: "AWESOME!",
+      awesome: "HO HO HO!",
       startNewCrawl: "Start New Crawl →",
       warning: "WARNING!",
       eraseStamps: "This will erase all your collected stamps!",
@@ -149,11 +149,11 @@ function SantaCrawlApp() {
       validate: "驗證",
       approved: "已批准！",
       stampCollected: "印章已收集",
-      winner: "優勝者！",
+      winner: "聖誕快樂！",
       allStampsCollected: "已收集全部 {count} 個印章",
-      rewardAwaits: "🎁 您的獎品等著您 🎁",
+      rewardAwaits: "🎁 希望您度過了美好的時光！ 🎁",
       showScreen: "向任何店家出示此畫面即可領取獎品！",
-      awesome: "太棒了！",
+      awesome: "呵呵呵！",
       startNewCrawl: "開始新的巡遊 →",
       warning: "警告！",
       eraseStamps: "這將刪除您收集的所有印章！",
@@ -828,14 +828,6 @@ function SantaCrawlApp() {
                   style={{ fontFamily: 'Fredoka, cursive' }}
                 >
                   {t.awesome}
-                </button>
-                
-                <button 
-                  onClick={() => setShowResetConfirm(true)}
-                  className="text-xs font-bold text-stone-900 underline hover:text-red-700 transition-colors"
-                  style={{ fontFamily: 'Special Elite, cursive' }}
-                >
-                  {t.startNewCrawl}
                 </button>
               </div>
             </div>
