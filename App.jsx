@@ -639,35 +639,8 @@ function SantaCrawlApp() {
                     <span className="text-base" style={{ fontFamily: 'Fredoka, cursive' }}>{t.facebook}</span>
                   </button>
                   <button 
-                    onClick={() => {
-                      // Open venue's Google Maps page directly
-                      const mapsUrl = selectedBar.googleMapsUrl;
-                      if (mapsUrl) {
-                        window.open(mapsUrl, '_blank');
-                      }
-                    }}
-                    className="bg-white text-red-700 py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
-                    title="Open on Google Maps & leave review"
-                  >
-                    <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                      {/* Google "G" */}
-                      <text x="50" y="45" fontSize="48" fontWeight="bold" textAnchor="middle" fontFamily="Product Sans, Arial, sans-serif">
-                        <tspan fill="#4285F4">G</tspan>
-                      </text>
-                      {/* 5 Stars */}
-                      <g transform="translate(10, 55)">
-                        <polygon points="8,3 10,9 16,9 11,13 13,19 8,15 3,19 5,13 0,9 6,9" fill="#FBBC04"/>
-                        <polygon points="24,3 26,9 32,9 27,13 29,19 24,15 19,19 21,13 16,9 22,9" fill="#FBBC04"/>
-                        <polygon points="40,3 42,9 48,9 43,13 45,19 40,15 35,19 37,13 32,9 38,9" fill="#FBBC04"/>
-                        <polygon points="56,3 58,9 64,9 59,13 61,19 56,15 51,19 53,13 48,9 54,9" fill="#FBBC04"/>
-                        <polygon points="72,3 74,9 80,9 75,13 77,19 72,15 67,19 69,13 64,9 70,9" fill="#FBBC04"/>
-                      </g>
-                    </svg>
-                    <span className="text-base" style={{ fontFamily: 'Fredoka, cursive' }}>{t.googleReview}</span>
-                  </button>
-                  <button 
                     onClick={() => handleCopyTag(selectedBar.socialHandle)}
-                    className="bg-yellow-500 text-stone-900 py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
+                    className="col-span-2 bg-yellow-500 text-stone-900 py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
                     title="Copy tags to clipboard"
                   >
                     <Copy size={28} strokeWidth={2.5} />
