@@ -9,12 +9,12 @@ const CRAWL_DATA = [
     id: 1, 
     name: "Tiki Taipei", 
     secretPin: "1234", 
-    image: "https://scontent.fhan4-5.fna.fbcdn.net/v/t39.30808-6/272667906_483321756478421_8666523856445749944_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=xPqMGLqvN6IQ7kNvgGxXqgF&_nc_zt=23&_nc_ht=scontent.fhan4-5.fna&_nc_gid=AYvH_YEcVj4Sxvg_KV8GBJA&oh=00_AfiYdEGxhzM-7LB0rMj9qqkxX8RQ4vZQ5qEZy5d_Eq7Pfw&oe=67615D52",
+    image: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/276159466_313720220745291_5809039127744352893_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2Yk8hrIkAh4Q7kNvwF3Dlmz&_nc_oc=AdmloelnI8sXjP9NBuCzFBwGWm2RK_FQJoUsCh9xi9j-TnjSJtXfFer8ynx-2VglzGvZDVXvsxJUQ4FrTbHufB2L&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=gjX3LBdi7IGDuxI5qkSkzw&oh=00_AfiZ6Z8XbroZhpmc5KQvkyhtYTIcsNlq775BEXi_6SqUOQ&oe=6931D560",
     socialHandle: "@tiki_taipei #TaipeiSantaCrawl",
     instagramUrl: "https://www.instagram.com/tiki_taipei/",
-    facebookUrl: "https://www.facebook.com/tikitaipei",
+    facebookUrl: "https://www.facebook.com/TikiTaipei",
     address: "No. 1, Yumen St, Zhongshan District (Maji Square)",
-    googlePlaceId: "" // To be added
+    googlePlaceId: "ChIJqY400k-pQjQRQbrs48zkkG4" // Tiki Taipei Google Place ID
   },
   { 
     id: 2, 
@@ -43,9 +43,9 @@ const CRAWL_DATA = [
     name: "Crafted Taipei", 
     secretPin: "9999", 
     image: "https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/305773234_462346825909088_88014592620908795_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=xD6_oqaOA6oQ7kNvwFkB1qP&_nc_oc=AdkaoesYgDJG76F6xT6sowNqaqlEMiA52T4eoJLAG8FlZNypqdsZ-QnqSjmYaR1L-38&_nc_zt=23&_nc_ht=scontent.fhan4-3.fna&_nc_gid=WkFlr0LXdsmguGMgRKGgKA&oh=00_Afh4e-uLrj8I5XkUVJaxWurqytbGOA4UhRvF9vKigqJXew&oe=692DBDFF",
-    socialHandle: "@craftedtaipei #TaipeiSantaCrawl",
-    instagramUrl: "https://www.instagram.com/craftedtaipei/",
-    facebookUrl: "https://www.facebook.com/craftedtaipei",
+    socialHandle: "@crafted.tw #TaipeiSantaCrawl",
+    instagramUrl: "https://www.instagram.com/crafted.tw/",
+    facebookUrl: "https://www.facebook.com/crafted.tw",
     address: "No. 1, Yumen St, Zhongshan District (Maji Square)",
     googlePlaceId: "" // To be added
   },
@@ -640,16 +640,12 @@ function SantaCrawlApp() {
                   </button>
                   <button 
                     onClick={() => {
-                      const placeId = selectedBar.googlePlaceId;
-                      if (placeId) {
-                        window.open(`https://search.google.com/local/writereview?placeid=${placeId}`, '_blank');
-                      } else {
-                        // Fallback to Google Maps search if no Place ID
-                        window.open(`https://www.google.com/maps/search/${encodeURIComponent(selectedBar.name + ' Taipei')}`, '_blank');
-                      }
+                      // Open Google search for the venue which shows reviews
+                      const searchQuery = encodeURIComponent(`${selectedBar.name} Taipei reviews`);
+                      window.open(`https://www.google.com/search?q=${searchQuery}`, '_blank');
                     }}
                     className="bg-white text-red-700 py-4 px-4 font-black border-4 border-stone-900 shadow-[3px_3px_0px_rgba(0,0,0,0.5)] hover:shadow-[1px_1px_0px_rgba(0,0,0,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center gap-2"
-                    title="Leave Google Review"
+                    title="Find on Google & leave review"
                   >
                     <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                       {/* Google "G" */}
