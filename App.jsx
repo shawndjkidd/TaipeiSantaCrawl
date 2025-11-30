@@ -1,3 +1,4 @@
+// UPDATED: 2025-11-30 18:45 - Google Review button removed
 import React, { useState, useEffect } from 'react';
 import { Check, QrCode, X, MapPin, Stamp, Star, Copy, Instagram, Facebook, Gift, Sparkles } from 'lucide-react';
 
